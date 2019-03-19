@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,80 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+	font-size: 14px;
+	font-color: black;
+	background: #F3EBE9;
+	margin: 0px 100px 10px 100px;
+	background-image: url(../images/pattern1.png);
+}
+
+.header {
+	background-color: #E17E73;
+}
+
+.main {
+	background-color: white;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	padding: 5px 5px 0px 5px;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: cursive, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0px 5px 20px 5px;
+}
+
+p {
+	padding: 5px;
+}
+
+.about {
+	text-decoration: underline;
+	padding: 10px 5px;
+}
+
+.photos {
+	text-decoration: underline;
+	padding: 10px 5px;
+}
+
+.footer {
+	background-color: #E17E73;
+	color: white;
+	text-align: right;
+	padding: 10px 10px 20px 10px;
+}
+
+.orchid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+img {
+	width: 100%;
+}
+
+.photo-wrapper {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photo-wrapper img {
+	width: 20%;
+	margin: 5px 5px 10px 5px;
+	padding: 2px;
+	border: 2px solid #CCCCCC;
+}
